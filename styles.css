@@ -1,1 +1,92 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  min-height: 100vh;
+  background-color: rgb(122, 123, 123);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 30px;
+   padding: 5px;
+   background-color: white;
+   border-radius: 5px;
+   padding: 35px 15px;
+   box-shadow: 4px 4px rgba(0,0,0,0.2);
+}
+
+.profile-skill-container{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.profile-container{
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.image-container img{
+  height: 100px;
+  width: 90px;
+}
+
+.candidate-details{
+  font-weight: 600;
+  padding-right: 5px;
+}
+
+.skill-container h2{
+  padding: 10px 0;
+}
+
+
+.skill-details{
+   display: flex;
+   justify-content: space-between;
+}
+
+.all-skills span{
+  padding-right: 6px;
+}
+
+.skills{
+  margin: 5px 0px;
+  padding: 2px;
+  background-color: rgb(194, 194, 244);
+}
+
+#frontend{
+  width: 95%;
+  background-color: blue;
+}
+#backend{
+  width: 90%;
+  background-color: blue;
+}
+#language{
+  width: 99%;
+  background-color: blue;
+}
+#server{
+  width: 93%;
+  background-color: blue;
+}
+
+.icon{
+  width: 20px;
+  height: 15px;
+  padding-right: 5px;
+}
 
